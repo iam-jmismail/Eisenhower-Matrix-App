@@ -1,0 +1,82 @@
+// Variables
+$doColor: #48c854;
+$decideColor: #44d9e6;
+$delegateColor: #ff332f;
+$deleteColor: #a8a8a8;
+
+.tasks {
+  // Do Tasks
+  .doTasks {
+    border: 5px solid white;
+    background-color: $doColor;
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 362px;
+    min-height: 362px;
+
+    .card {
+      background-color: $doColor;
+      color: white;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  //   Decide Tasks
+  .decideTasks {
+    border: 5px solid white;
+    background-color: $decideColor;
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 362px;
+    min-height: 362px;
+
+    .card {
+      background-color: $decideColor;
+      color: white;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  //   Delegate Tasks
+  .doDelegate {
+    border: 5px solid white;
+    background-color: $delegateColor;
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 362px;
+    min-height: 362px;
+
+    .card {
+      background-color: $delegateColor;
+      color: white;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  // Delete Tasks
+  .doDelete {
+    border: 5px solid white;
+    background-color: $deleteColor;
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 362px;
+    min-height: 362px;
+
+    .card {
+      background-color: $deleteColor;
+      color: white;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
